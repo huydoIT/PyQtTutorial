@@ -6,19 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>320</width>
-    <height>240</height>
+    <width>304</width>
+    <height>207</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Hello App</string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Desktop/coronavirus.ico</normaloff>../../Desktop/coronavirus.ico</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btClick">
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>60</y>
+      <y>30</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -27,13 +31,26 @@
      <string>Click me!</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="btOpen">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open new window</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>320</width>
+     <width>304</width>
      <height>21</height>
     </rect>
    </property>
